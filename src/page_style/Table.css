@@ -1,20 +1,21 @@
 #main-div {background:pink;}
 .div-head {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 2%;
+    margin-right: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f8a9f8;
 }
+#head {  background: #f8a9f8; }
 .div-ele {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #EFE8EF;
+    border-style: outset;
     margin-top: -9px;
 }
-.boder { border-bottom: double;  }
-.bg { width: 150px;}
+#body {  background: #EFE8EF; }
+.bg-l { width: 70px; margin-left: 6% }
+.bg-r { margin-right: 10%}
