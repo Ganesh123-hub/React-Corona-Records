@@ -7,11 +7,11 @@ const Table = ({ tableDataArr }) => {
         <div id="main-div">
             <br/>
         <div className="div-head" id="head"> <br/>
-            <h5 className="bg-light mr"> &nbsp; State &nbsp;</h5>
-            <h5 className="bg-info mr">&nbsp; Confirmed &nbsp;</h5>
-            <h5 className="bg-warning mr">&nbsp; Active &nbsp;</h5>
-            <h5 className="bg-info mr">&nbsp; Recovered &nbsp;</h5>
-            <h5 className="bg-warning mr">&nbsp; Deaths &nbsp; </h5> <br/>.
+            <h5 className="bg-secondary text-light mr"> &nbsp; State &nbsp;</h5>
+            <h5 className="bg-secondary text-light mr">&nbsp; Confirmed &nbsp;</h5>
+            <h5 className="bg-secondary text-light mr">&nbsp; Active &nbsp;</h5>
+            <h5 className="bg-secondary text-light mr">&nbsp; Recovered &nbsp;</h5>
+            <h5 className="bg-secondary text-light mr">&nbsp; Deaths &nbsp; </h5> <br/>.
         </div> <hr/>
         {
             records.map((value) => {
