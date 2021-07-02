@@ -17,11 +17,11 @@ const Table = ({ tableDataArr }) => {
             records.map((value) => {
                 return <div>
                     <div className="div-ele border">
-                        <h5 className="bg"> &nbsp; {value.state}</h5>
-                        <h5>{value.confirmed}</h5>
-                        <h5>{value.active}</h5>
-                        <h5>{value.recovered}</h5>
-                        <h5>{value.deaths} &nbsp; </h5>
+                        <h5 className="bg"> &nbsp; {value.state}&nbsp;</h5>
+                        <h5 className="bg-info">&nbsp;{value.confirmed}&nbsp;</h5>
+                        <h5 className="bg-warning">&nbsp;{value.active}&nbsp;</h5>
+                        <h5 className="bg-info">&nbsp;{value.recovered}&nbsp;</h5>
+                        <h5 className="bg-warning">&nbsp;{value.deaths} &nbsp; </h5>
                     </div> <br/>
                 </div>
             })
