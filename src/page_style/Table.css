@@ -1,0 +1,20 @@
+#main-div {background:pink;}
+.div-head {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8a9f8;
+}
+.div-ele {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EFE8EF;
+    margin-top: -9px;
+}
+.boder { border-bottom: double;  }
+.bg { width: 150px;}
