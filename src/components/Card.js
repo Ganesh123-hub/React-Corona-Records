@@ -2,7 +2,7 @@ import React from "react";
 import "../page_style/Card.css";
 
 const Card = ({ curDataArr }) => {
-     console.log(curDataArr[0]);  
+    // console.log(curDataArr[0]);  
 
     return (<div>
         <div className="container-fluid">
@@ -15,7 +15,7 @@ const Card = ({ curDataArr }) => {
                 <div className="col-12 col-sm-6 col-md-3 col-lg-3 text-center record-div">
                     <h5 className="fw-bold my-1"> Active </h5>
                     <i className="fa fa-wheelchair"></i> <br/>
-                    <h5 className="fw-bolder text-warning co-data">{(curDataArr[0]).active}</h5>
+                    <h5 className="fw-bolder text-info co-data">{(curDataArr[0]).active}</h5>
                 </div>
                 <div className="col-12 col-sm-6 col-md-3 col-lg-3 text-center record-div">
                     <h5 className="fw-bold my-1"> Recovered </h5>

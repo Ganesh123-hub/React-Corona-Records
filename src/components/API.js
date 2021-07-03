@@ -9,6 +9,17 @@ import axios from "axios";
         //  console.log(res);
          return (res);  
     }
+
+
+    // {
+    //     (tableDataArr.slice(1)).map((value) => {
+    //         return <div>
+    //             <tr>
+    //                 <td scope="col">A</td>  <td scope="col">A</td>
+    //             </tr>
+    //         </div>
+    //     })
+    // }
   
     
             

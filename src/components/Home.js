@@ -1,7 +1,10 @@
 import React from "react";
 import "../page_style/Home.css";
 import Card from "./Card";
+import Table from "./Table";
 import { api } from "./API";
+
+
 
 const Home = () => {
 
@@ -19,7 +22,7 @@ const Home = () => {
       setIndiaCase(rslt);
     });
   }, []);
-  // console.log(indiaCase);
+  // console.log( indiaCase);
   return (<div>
     <div className="bg-info">
       <br />
@@ -27,15 +30,26 @@ const Home = () => {
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxdh3Hmn7AEz1jy2fQv5iNDWIJPT_rXSmQxA&usqp=CAU"
           alt="" id="covid-logo" />
       </p>
-      <h2 className="text-center fw-bold h22"> Live India Tracker  </h2>
+    </div>
+    <div className="sticky-top bg-info">
+      <br /><br />
+      <h2 className="text-center fw-bold h22"> Live India CORANA Tracker  </h2>
       <h6 className="text-center fw-bold"> {date}</h6>
       <br />
     </div>
-    { (indiaCase.length>0) && (<Card curDataArr={indiaCase} />) }
+    { (indiaCase.length > 0) && (<Card curDataArr={indiaCase} />)}
+    { (indiaCase.length > 0) && (<Table tableDataArr={indiaCase} />)}
+
   </div>);
 
 }
 
 export default Home;
+
+{/* <BrowserRouter>
+   <Switch>
+      <Route path="/about"> <About /> </Route>
+   </Switch>
+</BrowserRouter> */}
 
 
