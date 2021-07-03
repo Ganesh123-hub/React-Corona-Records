@@ -46,10 +46,6 @@ const Home = () => {
 
 export default Home;
 
-{/* <BrowserRouter>
-   <Switch>
-      <Route path="/about"> <About /> </Route>
-   </Switch>
-</BrowserRouter> */}
+
 
 
