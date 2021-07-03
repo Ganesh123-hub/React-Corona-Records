@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
 }
-#head { background: violet; }
+#head { background: violet; position: sticky; top:130px }
 
 .div-ele {
     margin-left: 3%;
