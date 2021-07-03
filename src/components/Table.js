@@ -12,11 +12,12 @@ const Table = ({ tableDataArr }) => {
     function page4() { setPage(4); }
     function page5() { setPage(5); }
 
-    if (page === 1) var recordPage = tableDataArr.slice(1, 9);
-    if (page === 2) var recordPage = tableDataArr.slice(9, 17);
-    if (page === 3) var recordPage = tableDataArr.slice(17, 25);
-    if (page === 4) var recordPage = tableDataArr.slice(25, 31);
-    if (page === 5) var recordPage = tableDataArr.slice(31, tableDataArr.length);
+         var recordPage;
+    if (page === 1)  recordPage = tableDataArr.slice(1, 9);
+    if (page === 2)  recordPage = tableDataArr.slice(9, 17);
+    if (page === 3)  recordPage = tableDataArr.slice(17, 25);
+    if (page === 4)  recordPage = tableDataArr.slice(25, 31);
+    if (page === 5)  recordPage = tableDataArr.slice(31, tableDataArr.length);
 
     // clicked button active
     let bn = document.querySelectorAll(".btn");
