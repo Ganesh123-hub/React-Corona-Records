@@ -11,4 +11,7 @@
     height: 70px; width: 100px;
     border-radius: 30%;
 }
+.sticky-top {
+    margin-top: -16px;
+}
 

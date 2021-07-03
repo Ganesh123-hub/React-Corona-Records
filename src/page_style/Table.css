@@ -6,7 +6,8 @@
     justify-content: space-between;
     align-items: center;
 }
-#head {  background: #f8a9f8; }
+#head { background: violet; }
+
 .div-ele {
     margin-left: 3%;
     margin-right: 3%;
@@ -17,6 +18,19 @@
     margin-top: -9px;
 }
 #body {  background: #EFE8EF; }
-.bg-l { width: 70px; margin-left: 6% }
+.bg-l {  margin-left: 6% }
 .bg-r { margin-right: 10%}
-.mr {padding: 5px;}
+.mr {padding: 5px;
+     border-style: ridge;
+     border-style: double;
+     border-radius: 25px;
+    }
+.active { 
+    background-color: wheat;
+    font-style: italic;
+    font-weight: bolder;
+    color: blue;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color:brown;
+}
